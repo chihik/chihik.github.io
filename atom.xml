@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://chihik.cf</id>
     <title>Chihik&apos;s Blog</title>
-    <updated>2020-12-10T07:27:28.091Z</updated>
+    <updated>2020-12-14T06:44:13.162Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://chihik.cf"/>
     <link rel="self" href="http://chihik.cf/atom.xml"/>
@@ -10,6 +10,106 @@
     <logo>http://chihik.cf/images/avatar.png</logo>
     <icon>http://chihik.cf/favicon.ico</icon>
     <rights>All rights reserved 2020, Chihik&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[CF1215F Radio Stations]]></title>
+        <id>http://chihik.cf/post/cf1215f/</id>
+        <link href="http://chihik.cf/post/cf1215f/">
+        </link>
+        <updated>2020-12-12T00:02:03.000Z</updated>
+        <content type="html"><![CDATA[<p>令 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span> 表示选择电站 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span> , <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>u</mi><mo mathvariant="normal">′</mo></msup></mrow><annotation encoding="application/x-tex">u&#x27;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.751892em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span> 表示不选择电站 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span>。</p>
+<p>首先可以简单的处理出电站之间的要求：</p>
+<ul>
+<li>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi><mo separator="true">,</mo><mi>v</mi></mrow><annotation encoding="application/x-tex">u,v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span> 至少选一个，连边 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><msup><mi>u</mi><mo mathvariant="normal">′</mo></msup><mo separator="true">,</mo><mi>v</mi><mo>)</mo><mo separator="true">,</mo><mo>(</mo><msup><mi>v</mi><mo mathvariant="normal">′</mo></msup><mo separator="true">,</mo><mi>u</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(u&#x27;,v),(v&#x27;,u)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">u</span><span class="mclose">)</span></span></span></span></p>
+</li>
+<li>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi><mo separator="true">,</mo><mi>v</mi></mrow><annotation encoding="application/x-tex">u,v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span> 至多选一个，连边 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>u</mi><mo separator="true">,</mo><msup><mi>v</mi><mo mathvariant="normal">′</mo></msup><mo>)</mo><mo separator="true">,</mo><mo>(</mo><mi>v</mi><mo separator="true">,</mo><msup><mi>u</mi><mo mathvariant="normal">′</mo></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">(u,v&#x27;),(v,u&#x27;)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></p>
+</li>
+</ul>
+<p>可以枚举 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> ,电站区间不包含 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> 的强制不选 ( 连边<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>u</mi><mo separator="true">,</mo><msup><mi>u</mi><mo mathvariant="normal">′</mo></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">(u,u&#x27;)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">u</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> )，然后用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>2-SAT</mtext></mrow><annotation encoding="application/x-tex">\text{2-SAT}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">2-SAT</span></span></span></span></span> 求解。</p>
+<p>考虑优化上述过程，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> 对每个电站的要求可以看作两个：</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> 必须在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>1</mn><mo separator="true">,</mo><msub><mi>r</mi><mi>i</mi></msub><mo>]</mo></mrow><annotation encoding="application/x-tex">[1,r_i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span> 之间</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> 必须不在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>1</mn><mo separator="true">,</mo><msub><mi>l</mi><mi>i</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">[1,l_i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.01968em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 之间</li>
+</ul>
+<p>那么可以利用前缀优化建图，注意 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span> 不能为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> ，强制不选即可。</p>
+<pre><code class="language-cpp">#include &lt;cstdio&gt;
+#include &lt;cstring&gt;
+#include &lt;iostream&gt;
+using namespace std;
+
+const int MAXN = 2e6 , MAXM = 2e6;
+
+int n , k , m1 , m2 , l[ MAXN + 5 ] , r[ MAXN + 5 ];
+
+int Enum , tmp[ MAXN + 5 ] , Head[ MAXN + 5 ];
+struct Edge { int v , nxt; } Graph[ 2 * MAXM + 5 ];
+void Add_Edge( int u , int v ) { Graph[ ++ Enum ] = { v , Head[ u ] }; Head[ u ] = Enum; }
+
+int tim , cnt , dfn[ MAXN + 5 ] , low[ MAXN + 5 ] , bel[ MAXN + 5 ];
+int Top , Stack[ MAXN + 5 ];
+void Clear( ) {
+	tim = cnt = 0;
+	memset( dfn , 0 , sizeof( dfn ) );
+	memset( low , 0 , sizeof( low ) );
+	memset( bel , 0 , sizeof( bel ) );
+}
+void Tarjan( int u , int fa ) {
+	dfn[ u ] = low[ u ] = ++ tim;
+	Stack[ ++ Top ] = u;
+	for( int i = Head[ u ] ; i ; i = Graph[ i ].nxt ) {
+		int v = Graph[ i ].v; if( v == fa ) continue;
+		if( !dfn[ v ] ) {
+			Tarjan( v , u );
+			low[ u ] = min( low[ u ] , low[ v ] );
+		}
+		else if( !bel[ v ] )
+			low[ u ] = min( low[ u ] , dfn[ v ] );
+	}
+	if( dfn[ u ] == low[ u ] ) {
+        ++ cnt;
+        for( ; Stack[ Top ] != u ; Top -- ) bel[ Stack[ Top ] ] = cnt;
+        bel[ Stack[ Top -- ] ] = cnt;
+	}
+}
+
+int main( ) {
+	scanf(&quot;%d %d %d %d&quot;,&amp;m1,&amp;n,&amp;k,&amp;m2);
+	for( int i = 1 , u , v ; i &lt;= m1 ; i ++ ) {
+		scanf(&quot;%d %d&quot;,&amp;u,&amp;v);
+		Add_Edge( u + n , v ) , Add_Edge( v + n , u );
+	}
+	for( int i = 1 ; i &lt;= n ; i ++ ) scanf(&quot;%d %d&quot;,&amp;l[ i ],&amp;r[ i ]);
+	for( int i = 1 , u , v ; i &lt;= m2 ; i ++ ) {
+		scanf(&quot;%d %d&quot;,&amp;u,&amp;v);
+		Add_Edge( u , v + n ) , Add_Edge( v , u + n );
+	}
+	
+	//2*n + 2*k
+	for( int i = 1 ; i &lt;= k ; i ++ ) Add_Edge( 2 * n + i + 1 , 2 * n + i ); // &gt;  f
+	for( int i = k + 1 ; i &gt;= 2 ; i -- ) Add_Edge( 2 * n + i - 1 + ( k + 1 ) , 2 * n + i + ( k + 1 ) ); // &lt;= f
+	Add_Edge( 2 * n + 1 + ( k + 1 ) , 2 * n + 1 );  // f 不为 0 
+	for( int i = 1 ; i &lt;= n ; i ++ ) { //与 f 的限制 
+		Add_Edge( i , 2 * n + r[ i ] + 1 + ( k + 1 ) ); Add_Edge( i , 2 * n + l[ i ] );
+		Add_Edge( 2 * n + r[ i ] + 1 , i + n ); Add_Edge( 2 * n + l[ i ] + ( k + 1 ) , i + n );
+	}
+	
+	for( int i = 1 ; i &lt;= 2 * n + 2 * ( k + 1 ) ; i ++ ) if( !dfn[ i ] ) Tarjan( i , 0 );
+	
+	int num = 0 , f;
+	for( int i = 1 ; i &lt;= n ; i ++ ) {
+		if( bel[ i ] == bel[ i + n ] ) { printf(&quot;-1\n&quot;); return 0; }
+		if( bel[ i ] &lt; bel[ i + n ] ) num ++;
+	}
+	for( int i = 1 ; i &lt;= k ; i ++ ) if( ( bel[ 2 * n + i ] &lt; bel[ 2 * n + i + ( k + 1 ) ] ) &amp;&amp; ( bel[ 2 * n + i + 1 ] &gt; bel[ 2 * n + i + 1 + ( k + 1 ) ] ) ) { f = i; break; }
+	
+	printf(&quot;%d %d\n&quot;, num , f );
+	for( int i = 1 ; i &lt;= n ; i ++ ) if( bel[ i ] &lt; bel[ i + n ] ) printf(&quot;%d &quot;, i );
+	return 0;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[P4983 忘情]]></title>
         <id>http://chihik.cf/post/p4983/</id>
@@ -696,76 +796,6 @@ int main( ) {
 
 0.633701
 */
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[P1560 [USACO5.2]蜗牛的旅行]]></title>
-        <id>http://chihik.cf/post/p1560/</id>
-        <link href="http://chihik.cf/post/p1560/">
-        </link>
-        <updated>2020-10-14T13:31:37.000Z</updated>
-        <content type="html"><![CDATA[<p>这道题是一道典型的搜索题，我们用<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>f</mi><mi>s</mi><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo separator="true">,</mo><mi>s</mi><mi>t</mi><mi>e</mi><mi>p</mi><mo separator="true">,</mo><mi>s</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">dfs(x,y,step,s)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord mathdefault">s</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">s</span><span class="mord mathdefault">t</span><span class="mord mathdefault">e</span><span class="mord mathdefault">p</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">s</span><span class="mclose">)</span></span></span></span>表示蜗牛在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(x,y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span>这个点，走了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mi>t</mi><mi>e</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">step</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">s</span><span class="mord mathdefault">t</span><span class="mord mathdefault">e</span><span class="mord mathdefault">p</span></span></span></span>步，当前的方向（起点的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">s=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，特殊处理一下）。</p>
-<p>当蜗牛确定一个方向后，我们就不断让它前进，同时记录它走过的格子，直到它遇到障碍，出界或者到达已走过的点停止。</p>
-<p>如果蜗牛遇到障碍，我们就枚举每个方向，因为前方有障碍，后方已经走过，所以蜗牛只会向左或向右转，不需要特殊处理。</p>
-<p>代码中<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mi>o</mi><mi>t</mi><mi>o</mi></mrow><annotation encoding="application/x-tex">goto</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord mathdefault">o</span><span class="mord mathdefault">t</span><span class="mord mathdefault">o</span></span></span></span>的作用是找到后面的单词，使之跳过一些语句，感觉作用比<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi><mi>r</mi><mi>e</mi><mi>a</mi><mi>k</mi></mrow><annotation encoding="application/x-tex">break</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">e</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span>,<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi><mi>o</mi><mi>n</mi><mi>t</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">continue</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">c</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span><span class="mord mathdefault">t</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mord mathdefault">u</span><span class="mord mathdefault">e</span></span></span></span>强，可以减少一些判断。</p>
-<p>最后是代码：</p>
-<pre><code class="language-cpp">#include &lt;cstdio&gt;
-#include &lt;iostream&gt;
-using namespace std;
-
-const int MAXN = 120;
-char x;
-int n,m,y,Ans;
-char Map[ MAXN + 5 ][ MAXN + 5 ];
-bool vis[ MAXN + 5 ][ MAXN + 5 ];
-
-int tx[ 5 ] = { 0 , 1 , -1 , 0 , 0 };
-int ty[ 5 ] = { 0 , 0 , 0 , 1 , -1 };
-void dfs( int x , int y , int step , int s ) {
-	Ans = max( Ans , step );
-	if( s ) {
-		int fx = x + tx[ s ] , fy = y + ty[ s ];
-		if( fx == 0 || fy == 0 || fx == n + 1 || fy == n + 1 || Map[ fx ][ fy ] == '#' )
-			goto there;
-		if( vis[ fx ][ fy ] )
-			return;
-		vis[ fx ][ fy ] = 1;
-		dfs( fx , fy , step + 1 , s );
-		vis[ fx ][ fy ] = 0;
-		return;
-	}
-	there:;
-	for( int i = 1 ; i &lt;= 4 ; i ++ ) {
-		int fx = x + tx[ i ] , fy = y + ty[ i ];
-		if( fx == 0 || fy == 0 || fx == n + 1 || fy == n + 1 || Map[ fx ][ fy ] == '#' || vis[ fx ][ fy ] )
-			continue;
-		vis[ fx ][ fy ] = 1;
-		dfs( fx , fy , step + 1 , i );
-		vis[ fx ][ fy ] = 0;
-	}
-}
-
-int main( ) {
-	scanf(&quot;%d %d&quot;,&amp;n,&amp;m);
-	for( int i = 1 ; i &lt;= n ; i ++ )
-		for( int j = 1 ; j &lt;= n ; j ++ )
-			Map[ i ][ j ] = '.';
-	for( int i = 1 ; i &lt;= m ; i ++ ) {
-		cin &gt;&gt; x;
-		scanf(&quot;%d&quot;,&amp;y);
-		Map[ y ][ x - 'A' + 1 ] = '#';
-	}
-	/*for( int i = 1 ; i &lt;= n ; i ++ ) {
-		for( int j = 1 ; j &lt;= n ; j ++ )
-			printf(&quot;%c&quot;,Map[ i ][ j ]);
-		printf(&quot;\n&quot;);
-	}*/
-	vis[ 1 ][ 1 ] = 1;
-	dfs( 1 , 1 , 1 , 0 );
-	printf(&quot;%d&quot;,Ans);
-	return 0;
-}
 </code></pre>
 ]]></content>
     </entry>
